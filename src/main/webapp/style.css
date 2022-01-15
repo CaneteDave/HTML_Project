@@ -1,0 +1,17 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img{
+    border-style: solid;
+    border-color: black;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    transition: 1s;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}

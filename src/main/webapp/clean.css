@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../DC/footer/backk.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cart{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+  .white{
+    border-radius: 20px;
+    margin-left: 7px;
+    width: 1329px;
+    height: 10px;
+}
+.location{
+    width: 27px;
+    height: 35px;
+    margin-left: 780px;
+}
+.shoes{
+    margin-left: 10px;
+  
+    width: 450px;
+    height: 80px;
+}
+.menubar{
+    outline-style: outset;
+    font-size: 25px;
+    text-align: center;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menubar ul li{
+
+    padding: 15px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color:black;
+}
+.active, .menubar ul li:hover
+{  
+    color: black;
+    
+    border-radius: 8px;
+}
+.sub1{
+    font-size: 20px;
+    display: none;
+}
+.menubar ul li:hover .sub1{
+    display: block;
+    position: absolute;
+    background: gray;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menubar ul li:hover .sub1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menubar ul li:hover .sub1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 5px dotted white;
+    background:transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menubar ul li:hover .sub1 ul li a:hover
+{
+    color: white;
+}
+.sub2{
+    display: none;
+}
+.hoverme:hover .sub2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 150px;
+    background-color: gray;
+}
+.free{
+    background-color: gray;
+    box-shadow: gray;
+    text-align: center;
+    font-size: .2in;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container h1{
+    color: black;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.button{
+    background: white;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px black;
+    margin-top: 50px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.button2{
+    background: white;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px black;
+    margin-top: 50px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.button:hover{
+    background: #34495e;
+    color: #fff;
+}
+.button2:hover{
+    background: #34495e;
+    color: #fff;
+}
+.popup{
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.popup-content{
+    height: 250px;
+    width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+.shoe{
+    width: 3in;
+}
+input{
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid gray;
+}
+.close{
+    height: .4in;
+    width: .4in;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
